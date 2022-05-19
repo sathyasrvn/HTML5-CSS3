@@ -1,0 +1,276 @@
+.header{
+min-height:100vh;
+width:100%;
+background-image:url("D:project/saravanan/img/bulls/back.jpg");
+background-position:center;
+background-size:cover;
+position:relative;
+}
+.nav-link ul
+{
+	text-align:center;
+}
+.nav-link ul li{
+display:inline-block;
+padding:30px 25px;
+}
+.nav-link ul li a{
+text-decoration:none;
+color:#ca03fc;
+font-size:bold;
+text-transform:uppercase;
+}
+.nav-link ul li::after{
+display:block;
+content:'';
+width:0%;
+height:2px;
+background-color:red;
+margin:0 auto;
+transition:0.5s;
+}
+.nav-link ul li:hover::after{
+width:100%;
+}
+.head{
+font-style:italic;
+text-transform:uppercase;
+color:#f723a9;
+margin:60px 0 0 490px;
+}
+.para{
+margin:200px 0 0 250px;
+font-style:italic;
+color:#5c23f7;
+font-size:20px;
+}
+#button{
+text-align:center;
+margin:0 0 -50px 595px;
+border:2px solid #ca03fc;
+border-radius:20px;
+cursor:pointer;
+font-size:bold;
+background:#23f0f7;
+display:inline-block;
+position:relative;
+}
+#button:hover{
+transition:1s;
+border:2px solid red;
+background:#c2f723;
+}
+#button .view-button{
+text-decoration:none;
+padding:5px;
+display:inline-block;
+position:relative;
+}
+#oval{
+border:2px dashed red;
+border:10px;
+}
+.pet{
+text-transform:uppercase;
+box-sizing:border-box;
+border-radius:30px;
+background-color:#ffe300;
+text-align:center;
+margin:30px auto;
+font-style:italic;
+width:300px;
+padding:0;
+}
+.pet:hover{
+transition:0.5s;
+box-sizing:border-box;
+border-radius:20px;
+background-color:#D633FF;
+}
+.bulls{
+text-align:center;
+box-sizing:border-box;
+border-radius:20px;
+width:25%;
+float:left;
+text-transform:capitalize;
+background-color:#ffd698;
+margin:20px 0 0 130px;
+font-style:bold;
+}
+.kanni{
+text-align:center;
+box-sizing:border-box;
+border-radius:20px;
+width:25%;
+float:left;
+text-transform:capitalize;
+background-color:#ffd698;
+margin:20px 0 0 30px;
+}
+.hen{
+text-align:center;
+box-sizing:border-box;
+border-radius:20px;
+width:25%;
+float:left;
+text-transform:capitalize;
+background-color:#ffd698;
+margin:20px 0 0 30px;
+}
+.clear{
+clear:both;
+}
+.chippi2{
+box-sizing:border-box;
+border-radius:20px;
+width:200px;
+height:30px;
+text-align:center;
+text-transform:uppercase;
+margin:auto;
+background-color:#ffe300;
+}
+.special2{
+font-style:italic;
+text-transform:capitalize;
+text-align:center;
+padding:4px;
+}
+.chippiimg{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+.box1 img{
+padding:2px;
+width:200px;
+height:200px;
+}
+.box1{
+opacity:0.7;
+}
+.box1:hover{
+opacity:1;
+transition:0.9s;
+}
+.bulls2{
+text-align:center;
+font-style:italic;
+text-transform:uppercase;
+margin:auto;
+background-color:#ffe300;
+width:250px;
+box-sizing:border-box;
+border-radius:20px;
+color:black;
+}
+.special3{
+text-transform:capitalize;
+text-align:center;
+font-style:italic;
+padding:0;
+}
+.bullimg{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+.box2 img{
+padding:2px;
+width:200px;
+height:200px;
+}
+.rooster2{
+font-style:italic;
+text-align:center;
+text-transform:uppercase;
+color:black;
+margin:auto;
+background-color:#ffe300;
+width:250px;
+box-sizing:border-box;
+border-radius:20px;
+
+}
+.special4{
+text-transform:capitalize;
+text-align:center;
+font-style:italic;
+padding:0;
+}
+.roosterimg{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+.box3 img{
+padding:2px;
+width:200px;
+height:200px;
+}
+.footer{
+min-height:70vh;
+width:80%;
+background-image:url("D:project/saravanan/img/bulls/index.jpg");
+background-position:center;
+background-size:cover;
+position:relative;
+background-image:no-repeat;
+margin:auto;
+border-radius:30px;
+}
+.contact h2{
+text-align:center;
+color:#ffd698;
+font-style:bold;
+padding-top:60px;
+}
+.contact p{
+text-align:center;
+color:#ffd698;
+font-style:normal;
+padding-top:10px;
+font-size:10px;
+}
+#button2 .view-button2{
+text-decoration:none;
+text-align:center;
+width:15%;
+font-style:bold;
+box-sizing:border-box;
+border-radius:20px;
+display:inline-block;
+position:relative;
+background-color:#D633FF;
+margin-top:160px;
+margin-left:440px;
+padding:5px;
+transition:1s;
+}
+#button2 .view-button2:hover{
+font-style:italic;
+box-sizing:border-box;
+border-radius:20px;
+background-color:#ffd698;
+}
+.footer2 h3{
+text-align:center;
+font-style:bold;
+font-size:50px;
+margin-bottom:0;
+}
+.footer2 p{
+text-align:center;
+font-style:bold;
+font-size:15px;
+}
+.oval2{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+.box4 img{
+width:20px;
+height:20px;
+}
